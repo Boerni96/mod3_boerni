@@ -1,0 +1,536 @@
+[debug] [2018-01-19T19:02:59.118Z] ----------------------------------------------------------------------
+[debug] [2018-01-19T19:02:59.120Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Bernhard Barth\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-01-19T19:02:59.120Z] CLI Version:   3.16.0
+[debug] [2018-01-19T19:02:59.120Z] Platform:      win32
+[debug] [2018-01-19T19:02:59.120Z] Node Version:  v8.9.1
+[debug] [2018-01-19T19:02:59.121Z] Time:          Fri Jan 19 2018 20:02:59 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-19T19:02:59.122Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-19T19:02:59.137Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-19T19:02:59.138Z] > authorizing via signed-in user
+[debug] [2018-01-19T19:02:59.142Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/nysl-boerni  
+  
+ Fri Jan 19 2018 20:02:59 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-19T19:03:09.053Z] ----------------------------------------------------------------------
+[debug] [2018-01-19T19:03:09.056Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Bernhard Barth\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-01-19T19:03:09.056Z] CLI Version:   3.16.0
+[debug] [2018-01-19T19:03:09.056Z] Platform:      win32
+[debug] [2018-01-19T19:03:09.056Z] Node Version:  v8.9.1
+[debug] [2018-01-19T19:03:09.057Z] Time:          Fri Jan 19 2018 20:03:09 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-19T19:03:09.057Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-19T19:03:09.071Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-19T19:03:09.071Z] > authorizing via signed-in user
+[debug] [2018-01-19T19:03:09.074Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/nysl-boerni  
+  
+ Fri Jan 19 2018 20:03:09 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-19T19:04:17.531Z] ----------------------------------------------------------------------
+[debug] [2018-01-19T19:04:17.531Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Bernhard Barth\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-01-19T19:04:17.543Z] CLI Version:   3.16.0
+[debug] [2018-01-19T19:04:17.543Z] Platform:      win32
+[debug] [2018-01-19T19:04:17.543Z] Node Version:  v8.9.1
+[debug] [2018-01-19T19:04:17.543Z] Time:          Fri Jan 19 2018 20:04:17 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-19T19:04:17.543Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-19T19:04:17.551Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-19T19:04:17.551Z] > authorizing via signed-in user
+[debug] [2018-01-19T19:04:17.551Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/nysl-boerni  
+  
+ Fri Jan 19 2018 20:04:17 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-19T19:04:21.066Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-19T19:04:21.066Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/nysl-boerni/tokens  
+  
+ Fri Jan 19 2018 20:04:21 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-19T19:04:22.435Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'nysl-boerni'...
+[info] 
+[info] i  deploying database, storage, hosting
+[info] i  database: checking rules syntax...
+[debug] [2018-01-19T19:04:42.799Z] >>> HTTP REQUEST PUT https://nysl-boerni.firebaseio.com/.settings/rules.json?dryRun=true  
+ {
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+}
+ 
+ Fri Jan 19 2018 20:04:42 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-19T19:04:44.654Z] <<< HTTP RESPONSE 200
+[info] +  database: rules syntax for database nysl-boerni is valid
+[debug] [2018-01-19T19:04:44.668Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/nysl-boerni  
+  
+ Fri Jan 19 2018 20:04:44 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-19T19:04:49.807Z] <<< HTTP RESPONSE 200
+[info] i  storage: checking storage.rules for compilation errors...
+[debug] [2018-01-19T19:04:49.815Z] >>> HTTP REQUEST POST https://firebaserules.googleapis.com/v1/projects/nysl-boerni:test  
+ { source: { files: [ [Object] ] } } 
+ Fri Jan 19 2018 20:04:49 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-19T19:04:53.265Z] <<< HTTP RESPONSE 200
+[info] +  storage: rules file storage.rules compiled successfully
+[info] i  storage: uploading rules storage.rules...
+[debug] [2018-01-19T19:04:53.291Z] >>> HTTP REQUEST POST https://firebaserules.googleapis.com/v1/projects/nysl-boerni/rulesets  
+ { source: { files: [ [Object] ] } } 
+ Fri Jan 19 2018 20:04:53 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-19T19:05:05.077Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-19T19:05:05.077Z] [rules] created ruleset projects/nysl-boerni/rulesets/eb3ce27e-5201-499d-b663-b1a996c3bc72
+[info] i  hosting: preparing public directory for upload...
+[debug] [2018-01-19T19:05:05.352Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/nysl-boerni/uploads/-L3EnjiP94VUldQUdAO8?fileCount=47&message=  
+  
+ Fri Jan 19 2018 20:05:05 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-22T14:26:59.205Z] ----------------------------------------------------------------------
+[debug] [2018-01-22T14:26:59.208Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Bernhard Barth\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-01-22T14:26:59.208Z] CLI Version:   3.16.0
+[debug] [2018-01-22T14:26:59.208Z] Platform:      win32
+[debug] [2018-01-22T14:26:59.208Z] Node Version:  v8.9.1
+[debug] [2018-01-22T14:26:59.209Z] Time:          Mon Jan 22 2018 15:26:59 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-22T14:26:59.209Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-22T14:26:59.251Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-22T14:26:59.252Z] > authorizing via signed-in user
+[debug] [2018-01-22T14:26:59.258Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-01-22T14:26:59.259Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/ZFHn6SL2B_37Yzh6oylH4QqRQWbAItkQG896oJ7zhGw',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Jan 22 2018 15:26:59 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-22T14:26:59.913Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-22T14:26:59.927Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/nysl-boerni  
+  
+ Mon Jan 22 2018 15:26:59 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-22T14:27:00.819Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-22T14:27:00.820Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/nysl-boerni/tokens  
+  
+ Mon Jan 22 2018 15:27:00 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-22T14:27:04.926Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Bernhard Barth\Desktop\Ubiqum\mod3'...
+[info] 
+[debug] [2018-01-22T14:27:04.929Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/nysl-boerni  
+  
+ Mon Jan 22 2018 15:27:04 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-22T14:27:06.127Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-22T14:27:06.127Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/716541834435/clients/_:getWebAppConfig  
+  
+ Mon Jan 22 2018 15:27:06 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-22T14:27:07.005Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-01-23T14:06:00.769Z] ----------------------------------------------------------------------
+[debug] [2018-01-23T14:06:00.771Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Bernhard Barth\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-01-23T14:06:00.771Z] CLI Version:   3.16.0
+[debug] [2018-01-23T14:06:00.771Z] Platform:      win32
+[debug] [2018-01-23T14:06:00.771Z] Node Version:  v8.9.1
+[debug] [2018-01-23T14:06:00.772Z] Time:          Tue Jan 23 2018 15:06:00 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-23T14:06:00.772Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-23T14:06:00.785Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-23T14:06:00.785Z] > authorizing via signed-in user
+[debug] [2018-01-23T14:06:00.787Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-01-23T14:06:00.788Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/ZFHn6SL2B_37Yzh6oylH4QqRQWbAItkQG896oJ7zhGw',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Jan 23 2018 15:06:00 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-23T14:06:01.323Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-23T14:06:01.343Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/nysl-boerni  
+  
+ Tue Jan 23 2018 15:06:01 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-23T14:06:02.175Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-23T14:06:02.175Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/nysl-boerni/tokens  
+  
+ Tue Jan 23 2018 15:06:02 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-23T14:06:02.753Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Bernhard Barth\Desktop\Ubiqum\mod3'...
+[info] 
+[debug] [2018-01-23T14:06:02.757Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/nysl-boerni  
+  
+ Tue Jan 23 2018 15:06:02 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-23T14:06:03.932Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-23T14:06:03.934Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/716541834435/clients/_:getWebAppConfig  
+  
+ Tue Jan 23 2018 15:06:03 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-23T14:06:04.687Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-01-23T15:16:49.487Z] Error: connect ETIMEDOUT 172.217.21.99:443
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-01-23T15:16:49.502Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:554:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-01-23T15:18:35.018Z] ----------------------------------------------------------------------
+[debug] [2018-01-23T15:18:35.021Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Bernhard Barth\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-01-23T15:18:35.021Z] CLI Version:   3.16.0
+[debug] [2018-01-23T15:18:35.021Z] Platform:      win32
+[debug] [2018-01-23T15:18:35.021Z] Node Version:  v8.9.1
+[debug] [2018-01-23T15:18:35.024Z] Time:          Tue Jan 23 2018 16:18:35 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-23T15:18:35.024Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-23T15:18:35.049Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-23T15:18:35.050Z] > authorizing via signed-in user
+[debug] [2018-01-23T15:18:35.054Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-01-23T15:18:35.054Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/ZFHn6SL2B_37Yzh6oylH4QqRQWbAItkQG896oJ7zhGw',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Jan 23 2018 16:18:35 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-23T15:18:35.496Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-23T15:18:35.506Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/nysl-boerni  
+  
+ Tue Jan 23 2018 16:18:35 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-23T15:18:36.344Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-23T15:18:36.345Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/nysl-boerni/tokens  
+  
+ Tue Jan 23 2018 16:18:36 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-23T15:18:37.052Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Bernhard Barth\Desktop\Ubiqum\mod3'...
+[info] 
+[debug] [2018-01-23T15:18:37.056Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/nysl-boerni  
+  
+ Tue Jan 23 2018 16:18:37 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-23T15:18:38.061Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-23T15:18:38.063Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/716541834435/clients/_:getWebAppConfig  
+  
+ Tue Jan 23 2018 16:18:38 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-23T15:18:38.837Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-01-24T08:56:27.115Z] ----------------------------------------------------------------------
+[debug] [2018-01-24T08:56:27.115Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Bernhard Barth\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-01-24T08:56:27.115Z] CLI Version:   3.16.0
+[debug] [2018-01-24T08:56:27.115Z] Platform:      win32
+[debug] [2018-01-24T08:56:27.115Z] Node Version:  v8.9.1
+[debug] [2018-01-24T08:56:27.115Z] Time:          Wed Jan 24 2018 09:56:27 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-24T08:56:27.115Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-24T08:56:27.130Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-24T08:56:27.130Z] > authorizing via signed-in user
+[debug] [2018-01-24T08:56:27.130Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-01-24T08:56:27.130Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/ZFHn6SL2B_37Yzh6oylH4QqRQWbAItkQG896oJ7zhGw',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Jan 24 2018 09:56:27 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-24T08:56:27.443Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-24T08:56:27.459Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/nysl-boerni  
+  
+ Wed Jan 24 2018 09:56:27 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-24T08:56:28.285Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-24T08:56:28.287Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/nysl-boerni/tokens  
+  
+ Wed Jan 24 2018 09:56:28 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-24T08:56:28.956Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Bernhard Barth\Desktop\Ubiqum\mod3'...
+[info] 
+[debug] [2018-01-24T08:56:28.959Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/nysl-boerni  
+  
+ Wed Jan 24 2018 09:56:28 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-24T08:56:30.191Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-24T08:56:30.191Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/716541834435/clients/_:getWebAppConfig  
+  
+ Wed Jan 24 2018 09:56:30 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-24T08:56:31.472Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-01-24T09:29:19.937Z] Error: connect ETIMEDOUT 216.58.207.131:443
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-01-24T09:29:19.969Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:554:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-01-24T09:29:49.730Z] ----------------------------------------------------------------------
+[debug] [2018-01-24T09:29:49.732Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Bernhard Barth\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-01-24T09:29:49.732Z] CLI Version:   3.16.0
+[debug] [2018-01-24T09:29:49.732Z] Platform:      win32
+[debug] [2018-01-24T09:29:49.732Z] Node Version:  v8.9.1
+[debug] [2018-01-24T09:29:49.733Z] Time:          Wed Jan 24 2018 10:29:49 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-24T09:29:49.733Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-24T09:29:49.744Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-24T09:29:49.745Z] > authorizing via signed-in user
+[debug] [2018-01-24T09:29:49.747Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/nysl-boerni  
+  
+ Wed Jan 24 2018 10:29:49 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-24T09:29:50.523Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-24T09:29:50.524Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/nysl-boerni/tokens  
+  
+ Wed Jan 24 2018 10:29:50 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-24T09:29:51.121Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Bernhard Barth\Desktop\Ubiqum\mod3'...
+[info] 
+[debug] [2018-01-24T09:29:51.128Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/nysl-boerni  
+  
+ Wed Jan 24 2018 10:29:51 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-24T09:29:52.066Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-24T09:29:52.069Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/716541834435/clients/_:getWebAppConfig  
+  
+ Wed Jan 24 2018 10:29:52 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-24T09:29:52.865Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-01-24T09:36:17.674Z] Error: connect ETIMEDOUT 172.217.22.67:443
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-01-24T09:36:17.687Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:554:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-01-24T09:38:43.891Z] ----------------------------------------------------------------------
+[debug] [2018-01-24T09:38:43.893Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Bernhard Barth\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-01-24T09:38:43.893Z] CLI Version:   3.16.0
+[debug] [2018-01-24T09:38:43.894Z] Platform:      win32
+[debug] [2018-01-24T09:38:43.894Z] Node Version:  v8.9.1
+[debug] [2018-01-24T09:38:43.894Z] Time:          Wed Jan 24 2018 10:38:43 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-24T09:38:43.894Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-24T09:38:43.905Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-24T09:38:43.905Z] > authorizing via signed-in user
+[debug] [2018-01-24T09:38:43.907Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/nysl-boerni  
+  
+ Wed Jan 24 2018 10:38:43 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-24T09:38:44.892Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-24T09:38:44.893Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/nysl-boerni/tokens  
+  
+ Wed Jan 24 2018 10:38:44 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-24T09:38:45.487Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Bernhard Barth\Desktop\Ubiqum\mod3'...
+[info] 
+[debug] [2018-01-24T09:38:45.495Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/nysl-boerni  
+  
+ Wed Jan 24 2018 10:38:45 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-24T09:38:46.495Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-24T09:38:46.498Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/716541834435/clients/_:getWebAppConfig  
+  
+ Wed Jan 24 2018 10:38:46 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-24T09:38:47.258Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-01-24T09:42:21.772Z] ----------------------------------------------------------------------
+[debug] [2018-01-24T09:42:21.774Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Bernhard Barth\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-01-24T09:42:21.775Z] CLI Version:   3.16.0
+[debug] [2018-01-24T09:42:21.775Z] Platform:      win32
+[debug] [2018-01-24T09:42:21.775Z] Node Version:  v8.9.1
+[debug] [2018-01-24T09:42:21.775Z] Time:          Wed Jan 24 2018 10:42:21 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-24T09:42:21.776Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-24T09:42:21.787Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-24T09:42:21.787Z] > authorizing via signed-in user
+[debug] [2018-01-24T09:42:21.790Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-01-24T09:42:21.790Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/ZFHn6SL2B_37Yzh6oylH4QqRQWbAItkQG896oJ7zhGw',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Jan 24 2018 10:42:21 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-24T09:42:23.466Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-24T09:42:23.488Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/nysl-boerni  
+  
+ Wed Jan 24 2018 10:42:23 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-24T09:42:24.197Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-24T09:42:24.199Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/nysl-boerni/tokens  
+  
+ Wed Jan 24 2018 10:42:24 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-24T09:42:24.893Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Bernhard Barth\Desktop\Ubiqum\mod3'...
+[info] 
+[debug] [2018-01-24T09:42:24.901Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/nysl-boerni  
+  
+ Wed Jan 24 2018 10:42:24 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-24T09:42:26.191Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-24T09:42:26.195Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/716541834435/clients/_:getWebAppConfig  
+  
+ Wed Jan 24 2018 10:42:26 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-24T09:42:27.131Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-01-24T09:45:15.515Z] ----------------------------------------------------------------------
+[debug] [2018-01-24T09:45:15.520Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Bernhard Barth\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-01-24T09:45:15.520Z] CLI Version:   3.16.0
+[debug] [2018-01-24T09:45:15.520Z] Platform:      win32
+[debug] [2018-01-24T09:45:15.521Z] Node Version:  v8.9.1
+[debug] [2018-01-24T09:45:15.521Z] Time:          Wed Jan 24 2018 10:45:15 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-24T09:45:15.521Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-24T09:45:15.547Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-24T09:45:15.548Z] > authorizing via signed-in user
+[debug] [2018-01-24T09:45:15.551Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/nysl-boerni  
+  
+ Wed Jan 24 2018 10:45:15 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-24T09:45:18.257Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-24T09:45:18.258Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/nysl-boerni/tokens  
+  
+ Wed Jan 24 2018 10:45:18 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-24T09:45:20.262Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Bernhard Barth\Desktop\Ubiqum\mod3'...
+[info] 
+[debug] [2018-01-24T09:45:20.270Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/nysl-boerni  
+  
+ Wed Jan 24 2018 10:45:20 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-24T09:45:22.309Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-24T09:45:22.312Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/716541834435/clients/_:getWebAppConfig  
+  
+ Wed Jan 24 2018 10:45:22 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-24T09:45:23.190Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-01-25T08:54:10.431Z] ----------------------------------------------------------------------
+[debug] [2018-01-25T08:54:10.434Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Bernhard Barth\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-01-25T08:54:10.435Z] CLI Version:   3.16.0
+[debug] [2018-01-25T08:54:10.435Z] Platform:      win32
+[debug] [2018-01-25T08:54:10.435Z] Node Version:  v8.9.1
+[debug] [2018-01-25T08:54:10.435Z] Time:          Thu Jan 25 2018 09:54:10 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-25T08:54:10.436Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-25T08:54:10.458Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-25T08:54:10.458Z] > authorizing via signed-in user
+[debug] [2018-01-25T08:54:10.460Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-01-25T08:54:10.461Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/ZFHn6SL2B_37Yzh6oylH4QqRQWbAItkQG896oJ7zhGw',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Jan 25 2018 09:54:10 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-25T08:54:10.839Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-25T08:54:10.851Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/nysl-boerni  
+  
+ Thu Jan 25 2018 09:54:10 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-25T08:54:11.775Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-25T08:54:11.775Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/nysl-boerni/tokens  
+  
+ Thu Jan 25 2018 09:54:11 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-25T08:54:12.517Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Bernhard Barth\Desktop\Ubiqum\mod3'...
+[info] 
+[debug] [2018-01-25T08:54:12.519Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/nysl-boerni  
+  
+ Thu Jan 25 2018 09:54:12 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-25T08:54:15.518Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-25T08:54:15.520Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/716541834435/clients/_:getWebAppConfig  
+  
+ Thu Jan 25 2018 09:54:15 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-25T08:54:16.439Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-01-25T09:05:04.871Z] Error: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TLSWrap.onread (net.js:615:25)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-01-25T09:05:04.883Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:554:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-01-25T09:05:04.922Z] Error: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TLSWrap.onread (net.js:615:25)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-01-25T09:05:04.930Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:554:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-01-25T10:08:11.090Z] ----------------------------------------------------------------------
+[debug] [2018-01-25T10:08:11.095Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Bernhard Barth\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-01-25T10:08:11.095Z] CLI Version:   3.16.0
+[debug] [2018-01-25T10:08:11.095Z] Platform:      win32
+[debug] [2018-01-25T10:08:11.095Z] Node Version:  v8.9.1
+[debug] [2018-01-25T10:08:11.096Z] Time:          Thu Jan 25 2018 11:08:11 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-25T10:08:11.096Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-25T10:08:11.114Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-25T10:08:11.114Z] > authorizing via signed-in user
+[debug] [2018-01-25T10:08:11.119Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-01-25T10:08:11.119Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/ZFHn6SL2B_37Yzh6oylH4QqRQWbAItkQG896oJ7zhGw',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Jan 25 2018 11:08:11 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-25T10:08:11.874Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-25T10:08:11.888Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/nysl-boerni  
+  
+ Thu Jan 25 2018 11:08:11 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-25T10:08:12.732Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-25T10:08:12.733Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/nysl-boerni/tokens  
+  
+ Thu Jan 25 2018 11:08:12 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-25T10:08:13.482Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Bernhard Barth\Desktop\Ubiqum\mod3'...
+[info] 
+[debug] [2018-01-25T10:08:13.486Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/nysl-boerni  
+  
+ Thu Jan 25 2018 11:08:13 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-25T10:08:14.867Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-25T10:08:14.869Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/716541834435/clients/_:getWebAppConfig  
+  
+ Thu Jan 25 2018 11:08:14 GMT+0100 (Mitteleuropäische Zeit)
+[debug] [2018-01-25T10:08:15.918Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+

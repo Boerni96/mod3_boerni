@@ -1,5 +1,25 @@
-$green: #00ff00;
+#header {
+	height: 60px;
+	width: 100%;
+	background-color: black;
+	margin-top: 100px;
 
-body{
-	background: $green !important;
 }
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	background: url(../img/ecke2.jpg);
+	 background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+
+}
+
+#content {
+	text-align: center;
+}
+

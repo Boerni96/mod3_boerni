@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NYSL</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/4.8.1/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/4.8.1/firebase-auth.js"></script>
+    <script defer src="/__/firebase/4.8.1/firebase-database.js"></script>
+    <script defer src="/__/firebase/4.8.1/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/4.8.1/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+</head>
+
+<body>
+     <nav class="navbar navbar-dark bg-primary">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">NYSL</a>
+
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15" aria-controls="navbarSupportedContent15"
+        aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+            </li>
+        </ul>
+        <!-- Links -->
+
+    </div>
+    <!-- Collapsible content -->
+
+</nav>
+ 
+   <div id="content">
+       <div class="green card bg-success text-white">
+        <div class="card-body">
+            <h1>TABLE</h1></div>
+    </div>
+        <table class="table table-striped gamelist">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col"></th>
+                    <th scope="col">T</th>
+                    <th scope="col">G</th>
+                    <th scope="col">G</th>
+                    <th scope="col">P</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <th scope="row"><img src="img/teamlogoneu.png" width="40" height="40"></th>
+                    <td>SOCCER VILLAGE</td>
+                    <td>4</td>
+                    <td>+10</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <th scope="row"><img src="img/lincoln.png" width="40" height="40"></th>
+                    <td>LINCOLN CITY</td>
+                    <td>4</td>
+                    <td>+9</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <th scope="row"><img src="img/forest.png" width="40" height="40"></th>
+                    <td>FOREST GREEN</td>
+                    <td>4</td>
+                    <td>+8</td>
+                    <td>11</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <th scope="row"><img src="img/exeter.png" width="40" height="40"></th>
+                    <td>EXETER CITY</td>
+                    <td>4</td>
+                    <td>+6</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <th scope="row"><img src="img/mansfield.png" width="40" height="40"></th>
+                    <td>MANSFIELD TOWN</td>
+                    <td>4</td>
+                    <td>+4</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <th scope="row"><img src="img/wanderers.png" width="40" height="40"></th>
+                    <td>WYCOMBE WANDERERS</td>
+                    <td>4</td>
+                    <td>+5</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <th scope="row">7</th>
+                    <th scope="row"><img src="img/morecambe.png" width="40" height="40"></th>
+                    <td>MORECAMBE FC</td>
+                    <td>4</td>
+                    <td>+5</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <th scope="row">8</th>
+                    <th scope="row"><img src="img/camunited.png" width="40" height="40"></th>
+                    <td>CAMBRIDGE UNITED</td>
+                    <td>4</td>
+                    <td>+3</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <th scope="row">9</th>
+                    <th scope="row"><img src="img/coventry.png" width="40" height="40"></th>
+                    <td>COVENTRY CITY</td>
+                    <td>4</td>
+                    <td>+3</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <th scope="row">10</th>
+                    <th scope="row"><img src="img/crewe.png" width="40" height="40"></th>
+                    <td>CREWE ALEXANDRA</td>
+                    <td>4</td>
+                    <td>+3</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <th scope="row">11</th>
+                    <th scope="row"><img src="img/carlisle.png" width="40" height="40"></th>
+                    <td>CARLISLE</td>
+                    <td>4</td>
+                    <td>+2</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <th scope="row">12</th>
+                    <th scope="row"><img src="img/swindsdon.png" width="40" height="40"></th>
+                    <td>SWINDON TOWN</td>
+                    <td>4</td>
+                    <td>+3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <th scope="row">13</th>
+                    <th scope="row"><img src="img/grimsby.png" width="40" height="40"></th>
+                    <td>GRIMSBY TOWN</td>
+                    <td>4</td>
+                    <td>+1</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <th scope="row">14</th>
+                    <th scope="row"><img src="img/luton.png" width="40" height="40"></th>
+                    <td>LUTON TOWN</td>
+                    <td>4</td>
+                    <td>+0</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <th scope="row">15</th>
+                    <th scope="row"><img src="img/cheltenham.png" width="40" height="40"></th>
+                    <td>CHELTENHAM TOWN</td>
+                    <td>4</td>
+                    <td>+0</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <th scope="row">16</th>
+                    <th scope="row"><img src="img/stevenage.png" width="40" height="40"></th>
+                    <td>STEVENAGE FC</td>
+                    <td>4</td>
+                    <td>-1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <th scope="row">17</th>
+                    <th scope="row"><img src="img/barnet.png" width="40" height="40"></th>
+                    <td>BARNET FC</td>
+                    <td>4</td>
+                    <td>-2</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <th scope="row">18</th>
+                    <th scope="row"><img src="img/county.png" width="40" height="40"></th>
+                    <td>NOTTS COUNTY</td>
+                    <td>4</td>
+                    <td>-3</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <th scope="row">19</th>
+                    <th scope="row"><img src="img/portvale.png" width="40" height="40"></th>
+                    <td>PORT VALE</td>
+                    <td>4</td>
+                    <td>-4</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <th scope="row">20</th>
+                    <th scope="row"><img src="img/yeovil.png" width="40" height="40"></th>
+                    <td>YEOVIL TOWN</td>
+                    <td>4</td>
+                    <td>-5</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <th scope="row">21</th>
+                    <th scope="row"><img src="img/colchester.png" width="40" height="40"></th>
+                    <td>CHOLCHESTER</td>
+                    <td>4</td>
+                    <td>-6</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <th scope="row">22</th>
+                    <th scope="row"><img src="img/chesterfield.png" width="40" height="40"></th>
+                    <td>CHESTERFIELD FC</td>
+                    <td>4</td>
+                    <td>-8</td>
+                    <td>0</td>
+                </tr>
+            
+            </tbody>
+        </table>
+    </div>
+         <div class="card-footer bg-light">
+            <div>
+                <a href="index.html">
+            <img src="img/ball.png">
+          </a>
+            </div>
+            <div>
+                <a href="gameinfo.html">
+            <img src="img/trickot.png">
+          </a>
+            </div>
+            <div>
+                <a href="teams.html">
+            <img src="img/team.png">
+          </a>
+            </div>
+            <div>
+                <a href="table.html">
+            <img src="img/league.png">
+          </a>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    </div>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // // The Firebase SDK is initialized and available here!
+        //
+        // firebase.auth().onAuthStateChanged(user => { });
+        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+        // firebase.messaging().requestPermission().then(() => { });
+        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        //
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+        try {
+            let app = firebase.app();
+            let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
+        } catch (e) {
+            console.error(e);
+        }
+    });
+    </script>
+</body>
+
+</html>

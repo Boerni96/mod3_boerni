@@ -1,2 +1,181 @@
+
+html,body{
+	margin: 0;
+	padding: 0;
+}
+
 body {
-  background: #00ff00 !important; }
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	text-align: center;
+	background: #eaeaea;
+
+}
+
+.navbar {
+	margin-bottom: 0px;
+	z-index: 1;
+	height: 60px;
+}
+.navbar-collapse{
+	background-color: #007bff!important;
+	width: 100%;
+	
+
+}
+
+
+#content {
+position: fixed;
+    top: 60px;
+    bottom: 64px;
+    width: 100%;
+    overflow-y: scroll
+}
+
+#login {
+	position: fixed;
+    top: 150px;
+    bottom: 64px;
+    width: 100%;
+    overflow-y: scroll
+}
+
+.green {
+	
+	height: 60px;
+		position: fixed;
+	z-index: 100;
+	width: 100%;
+}
+.bg-success {
+        background-color: #224973!important;
+    }
+
+.card-body h1{
+	font-size: 18px;
+	
+}
+
+
+#gamedetails{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	background-color: rgba(0,0,0,.8);
+	display: none;
+}
+
+
+
+
+#locationbutton {
+	width: ;
+}
+.gamelist {
+	margin-top: 64px;
+}
+.gamelist li{
+     background: #eaeaea;
+     padding: 5px 10px;
+     display: block;
+
+}
+.gamebutton {
+	display: block;
+	background: white;
+	padding: 10px;
+	border-radius: 2px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.2)
+
+}
+.gamebutton .logo{
+	width: 50px;
+	height: 50px;
+	margin-bottom: 10px;
+}
+.gamebutton .team{
+	font-size: 16px;
+	white-space: normal;
+	color: black;
+	margin-bottom: 0px;
+
+}
+
+.gamebutton .vs{
+	font-size: 30px;
+	line-height: 50px;
+	color: #949699;
+}
+.gamebutton .details h3{
+	color: #949699;
+	margin-bottom: 15px;
+}
+
+
+.card-header {
+	display: flex;
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	background-color: white;
+	margin-top: 0px;
+	top: 0px;
+
+
+
+}
+
+.card-header > div{
+	flex: 1;
+}
+
+.card-header img {
+	height: 40px;
+	width: 40px;
+	object-fit: contain;
+
+}
+
+.card-footer {
+	display: flex;
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+		bottom: 0px;
+	background-color: #007bff!important;
+
+
+
+}
+
+.card-footer img {
+	height: 40px;
+	width: 40px;
+	object-fit: contain;
+}
+
+.card-footer > div {
+	flex: 1;
+}
+
+
+.btn p {
+	font-size: 10px;
+}
+
+.table {
+	font-size: 12px;
+	background: white !important;
+}
+
+.table tbody td {
+	word-break: keep-all;
+}
+
+.meinesuperclass{
+	background-color: red;
+}

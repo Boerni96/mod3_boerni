@@ -20,52 +20,57 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-primary">
-
-    <!-- Navbar brand -->
-    <a class="navbar-brand" href="#">NYSL</a>
-
-
-    <!-- Collapse button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15" aria-controls="navbarSupportedContent15"
-        aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-
-    <!-- Collapsible content -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent15">
-
-        <!-- Links -->
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Teams<span class="sr-only">(current)</span></a>
+    <div class="card"></div>
+    <div class="card-header">
+        <div>
+            <img src="img/hamburger.png"></div>
+        <div><strong>NYSL</strong></div>
+        <div>
+            <a href="login.html">
+                <button type="button" class="btn btn-danger">LOGIN</button>
+            </a>
+        </div>
+    </div>
+    <div class="green card bg-success text-white">
+        <div class="card-body">
+            <h1>GAME DETAILS</h1></div>
+    </div>
+    <div id="content">
+        <ul class="list-unstyled gamelist">
+            <li>
+                <a href="gameinfo.html" class=" gamebutton">
+                    <div class="row">
+                        <div class="col-5">
+                            <img class="logo" src="img/lincoln.png">
+                            <p class="team home">Lincoln City</p>
+                        </div>
+                        <div class="col-2">
+                            <p class="vs">vs</p>
+                        </div>
+                        <div class="col-5">
+                            <img class="logo" src="img/forest.png">
+                            <p class="team away">Forest Green Rovers</p>
+                        </div>
+                    </div>
+                </a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Settings</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Logout</a>
+            <li>
+                <div class=" gamebutton">
+                    <div class="details">
+                        <h3>START</h3>
+                        <p>Saturday, 17.01.18, 11.30 pm</p>
+                        <h3>AT</h3>
+                        <p>AJ Katzenberger</p>
+                        <div>
+                            <a href="#">
+                                <button id="locationbutton" type="button" class="btn btn-success btn-block">FIND THE LOCATION</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </li>
         </ul>
-        <!-- Links -->
-
-    </div>
-    <!-- Collapsible content -->
-
-</nav>
-<!--/.Navbar-->
-                
-            
-
-    
-    <div id="content">
-       <div class="green card bg-success text-white">
-        <div class="card-body">
-            <h1>UPCOMING EVENTS</h1></div>
-    </div>
-        <ul class="list-unstyled gamelist">
-           
-   </ul>
-  
-        <div class="card-footer bg-light">
+                <div class="card-footer bg-light">
             <div>
                 <a href="index.html">
             <img src="img/ball.png">
@@ -89,47 +94,10 @@
         </div>
     </div>
 
-    <div id="gamedetails">
-      <ul class="list-unstyled">
-            <li>
-                <a href="gameinfo.html" class=" gamebutton" data-game="0">
-                    <div class="row">
-                        <div class="col-5">
-                            <img class="logo home" src="img/lincoln.png">
-                            <p class="team home">Javascript</p>
-                        </div>
-                        <div class="col-2">
-                            <p class="vs">vs</p>
-                        </div>
-                        <div class="col-5">
-                            <img class="logo away" src="img/forest.png">
-                            <p class="team away">Javascript</p>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <div class="gamebutton">
-                    <div class="details">
-                        <h3>START</h3>
-                        <p>Saturday, 17.01.18, 11.30 pm</p>
-                        <h3>AT</h3>
-                        <p>AJ Katzenberger</p>
-                        <div>
-                            <a href="#">
-                                <button id="locationbutton" type="button" class="btn btn-success btn-block">FIND THE LOCATION</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </li>
-          </ul>
-        </div>
     </div>
-
+    </div>
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
     <script>
     document.addEventListener('DOMContentLoaded', function() {
         // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥

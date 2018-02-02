@@ -1,0 +1,291 @@
+{
+    "teams":
+    {
+        "1":
+        {
+            "name": "Lincoln City",
+            "logo": "img/lincoln.png",
+            "games": "4",
+            "goals": "+10",
+            "points": "12"
+        },
+        "2":
+        {
+            "name": "Forest Green Rovers",
+            "logo": "img/forest.png",
+            "games": "4",
+            "goals": "+9",
+            "points": "12"
+        },
+
+        "3":
+        {
+            "name": "Exeter City",
+            "logo": "img/exeter.png",
+            "games": "4",
+            "goals": "+8",
+            "points": "11"
+        },
+        "4":
+        {
+            "name": "Wycombe Wanderers",
+            "logo": "img/wanderers.png",
+            "games": "4",
+            "goals": "+6",
+            "points": "10"
+        },
+        "5":
+        {
+            "name": "Mansfield Town",
+            "logo": "img/mansfield.png",
+            "games": "4",
+            "goals": "+4",
+            "points": "10"
+        },
+        "6":
+        {
+            "name": "Cambridge United",
+            "logo": "img/camunited.png",
+            "games": "4",
+            "goals": "+5",
+            "points": "9"
+        },
+        "7":
+        {
+            "name": "Coventry City",
+            "logo": "img/coventry.png",
+            "games": "4",
+            "goals": "+5",
+            "points": "8"
+        },
+        "8":
+        {
+            "name": "Morecambe FC",
+            "logo": "img/morecambe.png",
+            "games": "4",
+            "goals": "+3",
+            "points": "8"
+        },
+        "9":
+        {
+            "name": "Carlisle United",
+            "logo": "img/carlisle.png",
+            "games": "4",
+            "goals": "+3",
+            "points": "7"
+        },
+        "10":
+        {
+            "name": "Luton Town",
+            "logo": "img/luton.png",
+            "games": "4",
+            "goals": "+3",
+            "points": "6"
+        },
+        "11":
+        {
+            "name": "Grimsby Town",
+            "logo": "img/grimsby.png",
+            "games": "4",
+            "goals": "+2",
+            "points": "6"
+        },
+        "12":
+        {
+            "name": "Crewe Alexandra",
+            "logo": "img/crewe.png",
+            "games": "4",
+            "goals": "+3",
+            "points": "4"
+        },
+        "13":
+        {
+            "name": "Swindon Town",
+            "logo": "img/swindsdon.png",
+            "games": "4",
+            "goals": "+1",
+            "points": "3"
+        },
+        "14":
+        {
+            "name": "Notts County",
+            "logo": "img/county.png",
+            "games": "4",
+            "goals": "+0",
+            "points": "2"
+        },
+        "15":
+        {
+            "name": "Cheltenham City",
+            "logo": "img/cheltenham.png",
+            "games": "4",
+            "goals": "+0",
+            "points": "1"
+        },
+        "16":
+        {
+            "name": "Yeovil Town",
+            "logo": "img/yeovil.png",
+            "games": "4",
+            "goals": "-1",
+            "points": "1"
+        },
+        "17":
+        {
+            "name": "Stevenage",
+            "logo": "img/stevenage.png",
+            "games": "4",
+            "goals": "-2",
+            "points": "1"
+        },
+        "18":
+        {
+            "name": "Port Vale",
+            "logo": "img/portvale.png",
+            "games": "4",
+            "goals": "-3",
+            "points": "1"
+        },
+        "19":
+        {
+            "name": "Barnet",
+            "logo": "img/barnet.png",
+            "games": "4",
+            "goals": "-4",
+            "points": "0"
+        },
+        "20":
+        {
+            "name": "Colchester United",
+            "logo": "img/colchester.png",
+            "games": "4",
+            "goals": "-5",
+            "points": "0"
+        },
+        "21":
+        {
+            "name": "Chesterfield",
+            "logo": "img/chesterfield.png",
+            "games": "4",
+            "goals": "-6",
+            "points": "0"
+        },
+        "22":
+        {
+            "name": "Soccer Village",
+            "logo": "img/teamlogoneu.png",
+            "games": "4",
+            "goals": "-8",
+            "points": "0"
+        }
+    },
+
+    "locations":
+    {
+        "1":
+        {
+            "name": "AJ Katzenberger Elementary",
+            "link": "https://www.google.com/maps/place/24+W+Walton+St,+Chicago,+IL+60610,+USA/@41.899366,-87.62713,15z/data=!4m5!3m4!1s0x880fd34e07f6bac3:0x68a82e5d59952c86!8m2!3d41.9002367!4d-87.6290717?hl=de-DE"
+        },
+
+        "2":
+        {
+            "name": "Greenbay Elementary",
+            "link": "https://www.google.com/maps?ll=41.913817,-87.638043&z=16&t=m&hl=de-DE&gl=DE&mapclient=embed&q=1734+N+Orleans+St+Chicago,+IL+60614+USA"
+        },
+
+
+        "3":
+        {
+            "name": "Howard A Yeager Elementary",
+            "link": "https://www.google.com/maps?ll=41.920138,-87.637739&z=16&t=m&hl=de-DE&gl=DE&mapclient=embed&q=2245+N+Orleans+St+Chicago,+IL+60614+USA"
+        },
+
+        "4":
+        {
+            "name": "Marjorie P Hart Elementary",
+            "link": "https://www.google.com/maps?ll=41.929648,-87.645971&z=16&t=m&hl=de-DE&gl=DE&mapclient=embed&q=2625+N+Orchard+St+Chicago,+IL+60614+USA"
+        },
+
+        "5":
+        {
+            "name": "North Elementary",
+            "link": "https://www.google.com/maps?ll=41.907119,-87.646153&z=16&t=m&hl=de-DE&gl=DE&mapclient=embed&q=1409+N+Ogden+Ave+Chicago,+IL+60610+USA"
+        },
+
+        "6":
+        {
+            "name": "South Elementary",
+            "link": "https://www.google.com/maps?ll=41.919751,-87.651357&z=16&t=m&hl=de-DE&gl=DE&mapclient=embed&q=2101+N+Fremont+St+Chicago,+IL+60614+USA"
+        }
+    },
+
+    "matches": [
+    {
+        "location": "2",
+        "team_home": "1",
+        "team_away": "2",
+        "date": "2017-01-30"
+    },
+    {
+        "location": "3",
+        "team_home": "3",
+        "team_away": "4",
+        "date": "2017-01-30"
+    },
+    {
+        "location": "4",
+        "team_home": "5",
+        "team_away": "6",
+        "date": "2017-01-30"
+    },
+    {
+        "location": "5",
+        "team_home": "7",
+        "team_away": "8",
+        "date": "2017-01-30"
+    },
+    {
+        "location": "6",
+        "team_home": "9",
+        "team_away": "10",
+        "date": "2017-01-30"
+    },
+    {
+        "location": "1",
+        "team_home": "11",
+        "team_away": "12",
+        "date": "2017-01-31"
+    },
+    {
+        "location": "2",
+        "team_home": "13",
+        "team_away": "14",
+        "date": "2017-01-31"
+    },
+    {
+        "location": "3",
+        "team_home": "15",
+        "team_away": "16",
+        "date": "2017-01-31"
+    },
+    {
+        "location": "4",
+        "team_home": "17",
+        "team_away": "18",
+        "date": "2017-01-31"
+    },
+    {
+        "location": "5",
+        "team_home": "19",
+        "team_away": "20",
+        "date": "2017-01-31"
+    },
+    {
+        "location": "6",
+        "team_home": "21",
+        "team_away": "22",
+        "date": "2017-01-31"
+    } ]
+
+}
